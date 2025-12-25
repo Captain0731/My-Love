@@ -1,0 +1,48 @@
+/* Shaggy name under animation */
+.shaggy-under {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 0);
+  font-size: 30px;
+  font-weight: bold;
+  color: #ffffff;
+ 
+  letter-spacing: 0.1em;
+  z-index: 10;
+  pointer-events: none;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.shaggy-unders {
+  position: absolute;
+  top: 55%;
+  left: 52%;
+  transform: translate(-50%, 0);
+  font-size: 20px;
+  font-weight: bold;
+  color: #ffffff;
+ 
+  letter-spacing: 0.1em;
+  z-index: 10;
+  pointer-events: none;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body {
+  margin: 0;
+  overflow: hidden;
+}
+
+.controls {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+canvas {
+  position: absolute;
+}
+svg {
+  position: absolute;
+  display: none;
+}
